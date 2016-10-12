@@ -42,7 +42,7 @@ function initialize() {
   };
   var map = new google.maps.Map(document.getElementById("contactsMap"),
     mapOptions);
-  var image = "../../img/icon-map-pin.svg";
+  var image = "../img/icon-map-pin.svg";
   var myLatLng = new google.maps.LatLng(59.93858,30.3228);
 
   var beachMarker = new google.maps.Marker({
